@@ -1,0 +1,9 @@
+<mvc:View controllerName="app.miningjson0953.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <SplitApp id="app">
+        <masterPages></masterPages>
+        <detailPages></detailPages>
+    </SplitApp>
+</mvc:View>
