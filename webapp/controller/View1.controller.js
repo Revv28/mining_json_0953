@@ -7,10 +7,14 @@ sap.ui.define([
         onInit() {
            
         },
-        onPress:function(){
-            
-        var oRouter = this.getOwnerComponent().getRouter();
-        oRouter.navTo('RouteView2')
+        onRowSelect:function(oEvt){
+            var oItem = oEvt.mParameters.listItem;
+            var locId = oItem.mProperties.title
+
+            var oRouter = this.getOwnerComponent().getRouter();
+            oRouter.navTo('RouteView2',{
+                locationId:locId
+            })
 
         }
     });

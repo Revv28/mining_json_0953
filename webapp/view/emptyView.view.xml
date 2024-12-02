@@ -1,9 +1,22 @@
-<mvc:View controllerName="app.miningjson0953.controller.emptyView"
+<mvc:View
+    controllerName="app.miningjson0953.controller.emptyView"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>eTitle}"
+    >
         <content>
-         <Button text='shefjhsgf'></Button>
+            <VBox
+                justifyContent="Center"
+                alignItems="Center"
+                height="100%"
+                width="100%"
+            >
+                <!-- Text centered in the VBox -->
+                <Text text="Click on any of the available locations to get details of resources availble" />
+            </VBox>
         </content>
     </Page>
 </mvc:View>

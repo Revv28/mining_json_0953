@@ -1,0 +1,411 @@
+{
+    "locations": [
+      {
+        "id": "L001",
+        "name": "Mount Everest",
+        "country": "Nepal",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Gold",
+              "cost": 500000,
+              "manDays": 500,
+              "probabilityOfPositiveOutcome": 0.80
+            },
+            {
+              "name": "Silver",
+              "cost": 300000,
+              "manDays": 400,
+              "probabilityOfPositiveOutcome": 0.85
+            },
+            {
+              "name": "Copper",
+              "cost": 400000,
+              "manDays": 600,
+              "probabilityOfPositiveOutcome": 0.75
+            }
+          ]
+        }
+      },
+      {
+        "id": "L002",
+        "name": "Sahara Desert",
+        "country": "Algeria",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Oil",
+              "cost": 1000000,
+              "manDays": 1500,
+              "probabilityOfPositiveOutcome": 0.90
+            },
+            {
+              "name": "Gas",
+              "cost": 1500000,
+              "manDays": 2000,
+              "probabilityOfPositiveOutcome": 0.95
+            }
+          ]
+        }
+      },
+      {
+        "id": "L003",
+        "name": "Amazon Rainforest",
+        "country": "Brazil",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Gold",
+              "cost": 700000,
+              "manDays": 800,
+              "probabilityOfPositiveOutcome": 0.78
+            },
+            {
+              "name": "Bauxite",
+              "cost": 500000,
+              "manDays": 600,
+              "probabilityOfPositiveOutcome": 0.80
+            }
+          ]
+        }
+      },
+      {
+        "id": "L004",
+        "name": "Kilimanjaro",
+        "country": "Tanzania",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Diamonds",
+              "cost": 2000000,
+              "manDays": 1200,
+              "probabilityOfPositiveOutcome": 0.85
+            },
+            {
+              "name": "Gold",
+              "cost": 3000000,
+              "manDays": 1500,
+              "probabilityOfPositiveOutcome": 0.90
+            }
+          ]
+        }
+      },
+      {
+        "id": "L005",
+        "name": "Victoria Falls",
+        "country": "Zambia",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Copper",
+              "cost": 800000,
+              "manDays": 1000,
+              "probabilityOfPositiveOutcome": 0.80
+            },
+            {
+              "name": "Zinc",
+              "cost": 600000,
+              "manDays": 800,
+              "probabilityOfPositiveOutcome": 0.75
+            }
+          ]
+        }
+      },
+      {
+        "id": "L006",
+        "name": "Lake Baikal",
+        "country": "Russia",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Oil",
+              "cost": 2000000,
+              "manDays": 3000,
+              "probabilityOfPositiveOutcome": 0.77
+            },
+            {
+              "name": "Coal",
+              "cost": 1000000,
+              "manDays": 2000,
+              "probabilityOfPositiveOutcome": 0.79
+            }
+          ]
+        }
+      },
+      {
+        "id": "L007",
+        "name": "Great Barrier Reef",
+        "country": "Australia",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Natural Gas",
+              "cost": 1500000,
+              "manDays": 1800,
+              "probabilityOfPositiveOutcome": 0.85
+            },
+            {
+              "name": "Coal",
+              "cost": 1200000,
+              "manDays": 1600,
+              "probabilityOfPositiveOutcome": 0.80
+            }
+          ]
+        }
+      },
+      {
+        "id": "L008",
+        "name": "Gobi Desert",
+        "country": "China",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Coal",
+              "cost": 800000,
+              "manDays": 1000,
+              "probabilityOfPositiveOutcome": 0.75
+            },
+            {
+              "name": "Copper",
+              "cost": 1000000,
+              "manDays": 1300,
+              "probabilityOfPositiveOutcome": 0.80
+            }
+          ]
+        }
+      },
+      {
+        "id": "L009",
+        "name": "The Alps",
+        "country": "Switzerland",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Iron Ore",
+              "cost": 600000,
+              "manDays": 900,
+              "probabilityOfPositiveOutcome": 0.85
+            },
+            {
+              "name": "Zinc",
+              "cost": 500000,
+              "manDays": 700,
+              "probabilityOfPositiveOutcome": 0.80
+            }
+          ]
+        }
+      },
+      {
+        "id": "L010",
+        "name": "Carpathian Mountains",
+        "country": "Romania",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Coal",
+              "cost": 400000,
+              "manDays": 500,
+              "probabilityOfPositiveOutcome": 0.78
+            },
+            {
+              "name": "Gold",
+              "cost": 600000,
+              "manDays": 800,
+              "probabilityOfPositiveOutcome": 0.82
+            }
+          ]
+        }
+      },
+      {
+        "id": "L011",
+        "name": "Mongolian Steppe",
+        "country": "Mongolia",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Copper",
+              "cost": 1000000,
+              "manDays": 1200,
+              "probabilityOfPositiveOutcome": 0.80
+            },
+            {
+              "name": "Gold",
+              "cost": 1500000,
+              "manDays": 1400,
+              "probabilityOfPositiveOutcome": 0.75
+            }
+          ]
+        }
+      },
+      {
+        "id": "L012",
+        "name": "Andes Mountains",
+        "country": "Chile",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Copper",
+              "cost": 2000000,
+              "manDays": 3000,
+              "probabilityOfPositiveOutcome": 0.90
+            },
+            {
+              "name": "Silver",
+              "cost": 1500000,
+              "manDays": 2500,
+              "probabilityOfPositiveOutcome": 0.88
+            }
+          ]
+        }
+      },
+      {
+        "id": "L013",
+        "name": "Mojave Desert",
+        "country": "United States",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Gold",
+              "cost": 1200000,
+              "manDays": 1500,
+              "probabilityOfPositiveOutcome": 0.76
+            },
+            {
+              "name": "Silver",
+              "cost": 900000,
+              "manDays": 1200,
+              "probabilityOfPositiveOutcome": 0.78
+            }
+          ]
+        }
+      },
+      {
+        "id": "L014",
+        "name": "Borneo",
+        "country": "Indonesia",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Oil",
+              "cost": 2000000,
+              "manDays": 2500,
+              "probabilityOfPositiveOutcome": 0.85
+            },
+            {
+              "name": "Tin",
+              "cost": 1500000,
+              "manDays": 2000,
+              "probabilityOfPositiveOutcome": 0.82
+            }
+          ]
+        }
+      },
+      {
+        "id": "L016",
+        "name": "Patagonian Desert",
+        "country": "Argentina",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Silver",
+              "cost": 900000,
+              "manDays": 1100,
+              "probabilityOfPositiveOutcome": 0.75
+            },
+            {
+              "name": "Gold",
+              "cost": 1300000,
+              "manDays": 1500,
+              "probabilityOfPositiveOutcome": 0.80
+            }
+          ]
+        }
+      },
+      {
+        "id": "L017",
+        "name": "Karakoram",
+        "country": "Pakistan",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Salt",
+              "cost": 500000,
+              "manDays": 800,
+              "probabilityOfPositiveOutcome": 0.82
+            },
+            {
+              "name": "Zinc",
+              "cost": 700000,
+              "manDays": 1200,
+              "probabilityOfPositiveOutcome": 0.78
+            }
+          ]
+        }
+      },
+      {
+        "id": "L018",
+        "name": "Atacama Desert",
+        "country": "Chile",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Lithium",
+              "cost": 2500000,
+              "manDays": 3000,
+              "probabilityOfPositiveOutcome": 0.88
+            },
+            {
+              "name": "Copper",
+              "cost": 2000000,
+              "manDays": 2500,
+              "probabilityOfPositiveOutcome": 0.85
+            }
+          ]
+        }
+      },
+      {
+        "id": "L019",
+        "name": "Kalahari Desert",
+        "country": "Botswana",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Diamonds",
+              "cost": 1800000,
+              "manDays": 2000,
+              "probabilityOfPositiveOutcome": 0.80
+            },
+            {
+              "name": "Salt",
+              "cost": 700000,
+              "manDays": 1000,
+              "probabilityOfPositiveOutcome": 0.75
+            }
+          ]
+        }
+      },
+      {
+        "id": "L020",
+        "name": "Himalayas",
+        "country": "India",
+        "miningOperations": {
+          "resources": [
+            {
+              "name": "Manganese",
+              "cost": 600000,
+              "manDays": 700,
+              "probabilityOfPositiveOutcome": 0.76
+            },
+            {
+              "name": "Copper",
+              "cost": 1000000,
+              "manDays": 1200,
+              "probabilityOfPositiveOutcome": 0.79
+            }
+          ]
+        }
+      }
+    ]
+  }
+
+      

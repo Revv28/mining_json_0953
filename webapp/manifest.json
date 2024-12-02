@@ -64,6 +64,16 @@
         "settings": {
           "bundleName": "app.miningjson0953.i18n.i18n"
         }
+      },
+      "detailModel": {
+        "type":"sap.ui.model.json.JSONModel",
+        "preload": true,
+        "settings": {}
+      },
+      "locationsModel": {
+        "type": "sap.ui.model.json.JSONModel",
+        "preload": true,
+        "uri": "model/miningDetails/mining.json"
       }
     },
     "resources": {
@@ -95,9 +105,9 @@
         },
         {
           "name": "RouteView2",
-          "pattern": "View2",
+          "pattern": "View2/{locationId}",
           "target": [
-            "TargetView2"
+            "TargetView1","TargetView2"
           ]
         }
       ],

@@ -1,9 +1,29 @@
 <mvc:View controllerName="app.miningjson0953.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    <Page id="page" title="{i18n>mTitle}">
         <content>
-            <Button text="revvv" press="onPress"></Button>
+          <HBox>
+                    <SearchField
+                        id="searchField"
+                        placeholder="Search by Location"
+                        liveChange="onFilterSearch"
+                    />
+                </HBox>
+            <!-- <Button text="{locationsModel>/locations/0/id}" press="onPress"></Button> -->
+            <List
+                items="{locationsModel>/locations}"
+                id="idList"
+                mode="SingleSelectMaster"
+                selectionChange="onRowSelect">
+                <items>
+                    <ObjectListItem title="{locationsModel>id}" number="{locationsModel>country}" type="Navigation">
+                        	<attributes>
+								<ObjectAttribute text="{locationsModel>name}" title="Location"></ObjectAttribute>
+							</attributes>
+                    </ObjectListItem>
+                </items>
+            </List>
         </content>
     </Page>
 </mvc:View>

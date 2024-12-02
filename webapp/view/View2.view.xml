@@ -1,9 +1,55 @@
-<mvc:View controllerName="app.miningjson0953.controller.View2"
+<mvc:View
+    controllerName="app.miningjson0953.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>eTitle}"
+    >
         <content>
-            <Button text='wgfusdgfsgf'></Button>
+            <f:SimpleForm title="Location details">
+                <Label text="Location Id" />
+                <Text text="{detailModel>/id}" />
+
+                <Label text="Location Description" />
+                <Text text="{detailModel>/name}" />
+
+                <Label text="Mining Resource Allocated" />
+                <Text text="{detailModel>/country}" />
+            </f:SimpleForm>
+             <f:SimpleForm title="Resources Available">
+                <Table items="{detailModel>/miningOperations/resources}">
+                    <columns>
+                        <Column >
+                            <Text text="Resource Name"></Text>
+                        </Column>
+                        <Column >
+                            <Text text="Cost"></Text>
+                        </Column>
+                        <Column >
+                            <Text text="Man Days"></Text>
+                        </Column>
+                         <Column >
+                            <Text text="PositiveOutcome(Probability)"></Text>
+                        </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem >
+                          <cells>
+                            <Text text="{detailModel>name}"></Text>
+                            <Text text="{detailModel>cost}"></Text>
+                            <Text text="{detailModel>manDays}"></Text>
+                            <Text text="{detailModel>probabilityOfPositiveOutcome}"></Text>
+                        </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+            </f:SimpleForm>
+
+
+           
         </content>
     </Page>
 </mvc:View>
