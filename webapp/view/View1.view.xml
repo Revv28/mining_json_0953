@@ -10,7 +10,6 @@
                         liveChange="onFilterSearch"
                     />
                 </HBox>
-            <!-- <Button text="{locationsModel>/locations/0/id}" press="onPress"></Button> -->
             <List
                 items="{locationsModel>/locations}"
                 id="idList"
